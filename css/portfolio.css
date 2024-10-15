@@ -1,0 +1,328 @@
+.body-home,
+.body-contact,
+.body-about,
+.body-resume {
+    background-color: rgb(93, 64, 133);
+}
+
+.box {
+    filter: blur(8px);
+    -webkit-filter: blur(9px);
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 50px;
+    left: 30px
+}
+
+.bg {
+    filter: blur(8px);
+    -webkit-filter: blur(9px);
+    width: 1330px;
+    height: 600px;
+    object-fit: cover;
+
+}
+
+.nav-home {
+    color: white;
+    font-family: afacad;
+    position: absolute;
+    top: 5px;
+    right: 325px;
+}
+
+.nav-home:hover {
+    color: rgb(247, 191, 224);
+}
+
+.nav-home:active {
+    color: rgb(187, 130, 163);
+
+}
+
+.nav-contact {
+    color: white;
+    font-family: afacad;
+    position: absolute;
+    top: 5px;
+    right: 125px;
+
+}
+
+.nav-contact:hover {
+    color: rgb(247, 191, 224);
+}
+
+.nav-contact:active {
+    color: rgb(187, 130, 163);
+
+}
+
+.bg-contact {
+    filter: blur(8px);
+    -webkit-filter: blur(9px);
+    width: 1330px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.nav-about {
+    color: white;
+    font-family: afacad;
+    position: absolute;
+    top: 5px;
+    right: 225px;
+}
+
+.nav-about:hover {
+    color: rgb(247, 191, 224);
+}
+
+.nav-about:active {
+    color: rgb(187, 130, 163);
+}
+
+.bg-about {
+    filter: blur(8px);
+    -webkit-filter: blur(9px);
+    width: 1330px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.hello {
+    color: rgb(247, 191, 224);
+    font-family: afacad;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+.name {
+    color: white;
+    position: absolute;
+    top: 150px;
+    font-family: afacad;
+    font-size: 40px;
+    left: 200px;
+}
+
+.name2 {
+    color: white;
+    position: absolute;
+    top: 185px;
+    font-family: afacad;
+    font-size: 40px;
+    left: 200px;
+}
+
+.line {
+    font-family: afacad;
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 245px;
+    left: 200px;
+}
+
+.IT {
+    color: rgb(247, 191, 224);
+    position: absolute;
+    top: 260px;
+    font-family: afacad;
+    font-size: 17px;
+    left: 200px;
+}
+
+.andi {
+    position: absolute;
+    top: 63px;
+    right: 200px;
+
+}
+
+.desc {
+    color: white;
+    position: absolute;
+    top: 300px;
+    font-family: afacad;
+    font-size: 15px;
+    left: 200px;
+}
+
+.button-resume {
+    height: 30px;
+    width: 70px;
+    font-family: afacad;
+    color: rgb(126, 6, 56);
+    background-color: rgb(247, 191, 224);
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+
+.button-resume:hover {
+    background-color: rgb(177, 4, 76);
+    color: white;
+}
+
+.button-resume:active {
+    background-color: rgb(126, 6, 56);
+    color: white;
+}
+
+.bg-resume {
+    filter: blur(8px);
+    -webkit-filter: blur(9px);
+    width: 1330px;
+    height: 600px;
+    object-fit: cover;
+}
+
+.abtme {
+    position: absolute;
+    top: 90px;
+    font-family: afacad;
+    font-size: 40px;
+    left: 200px;
+}
+
+.line2 {
+    font-family: afacad;
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+.about-me {
+    font-family: afacad;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 180px;
+    left: 200px;
+
+}
+
+.skills {
+    position: absolute;
+    top: 395px;
+    font-family: afacad;
+    font-size: 40px;
+    left: 200px;
+}
+
+.line3 {
+    font-family: afacad;
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 460px;
+    left: 200px;
+}
+
+.skill-desc {
+    font-family: afacad;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 490px;
+    left: 200px;
+}
+
+.ctc {
+
+    position: absolute;
+    top: 90px;
+    font-family: afacad;
+    font-size: 40px;
+    left: 200px;
+}
+
+.line3 {
+    font-family: afacad;
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+.email {
+    position: absolute;
+    width: 20px;
+    top: 210px;
+    left: 200px;
+}
+
+.phone {
+    position: absolute;
+    width: 20px;
+    top: 240px;
+    left: 200px;
+}
+
+.fb {
+    position: absolute;
+    width: 20px;
+    top: 270px;
+    left: 200px;
+}
+
+/* .java{
+    font-family:afacad;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 160px;
+    right:346px;
+}
+.line-java{
+    font-family:afacad;
+    font-size: 27px;
+    position: absolute;
+    top: 150px;
+    right:200px;
+}
+.c{
+    font-family:afacad;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right:390px;
+}
+.line-c{
+    font-family:afacad;
+    font-size: 27px;
+    position: absolute;
+    top: 195px;
+    right:200px;
+} */
+/* .cc{
+
+}
+.line-cc{
+
+}
+.csharp{
+
+}
+.line-csharp{
+
+}
+.html{
+
+}
+.line-html{
+
+}
+.css{
+
+}
+.line-css{
+
+} */
