@@ -1,0 +1,136 @@
+.body-home
+ {
+    background-color: rgb(93, 64, 133);
+}
+
+.bg{
+    filter: blur(8px);
+    -webkit-filter: blur(9px);
+    width: 1330px;
+    height: 600px;
+    object-fit: cover;
+}
+.nav-home {
+    color:  rgb(214, 204, 204);
+    font-family: afacad;
+    position: absolute;
+    top: 5px;
+    right: 325px;
+}
+.nav-home:hover {
+    color: rgb(247, 191, 224);
+    transition-duration: 0.4s;
+    
+}
+
+.nav-home:active {
+    color: rgb(187, 130, 163);
+    transition-duration: 0.2s;
+
+}
+.nav-contact {
+    color: rgb(214, 204, 204);
+    font-family: afacad;
+    position: absolute;
+    top: 5px;
+    right: 125px;
+}
+.nav-contact:hover {
+    color: rgb(247, 191, 224);
+    transition-duration: 0.4s;
+}
+.nav-contact:active {
+    color: rgb(187, 130, 163);
+    transition-duration: 0.2s;
+}
+.nav-about {
+    color: rgb(214, 204, 204);
+    font-family: afacad;
+    position: absolute;
+    top: 5px;
+    right: 225px;
+}
+.nav-about:hover {
+    color: rgb(247, 191, 224);
+    transition-duration: 0.4s;
+}
+.nav-about:active {
+    color: rgb(187, 130, 163);
+    transition-duration: 0.2s;
+}
+.hello {
+    color: rgb(247, 191, 224);
+    font-family: afacad;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+.name {
+    color:  rgb(214, 204, 204);
+    position: absolute;
+    top: 150px;
+    font-family: afacad;
+    font-size: 40px;
+    left: 200px;
+}
+.name2 {
+    color: rgb(214, 204, 204);
+    position: absolute;
+    top: 185px;
+    font-family: afacad;
+    font-size: 40px;
+    left: 200px;
+}
+.line {
+    font-family: afacad;
+    font-size: 27px;
+    color:  rgb(214, 204, 204);
+    position: absolute;
+    top: 245px;
+    left: 200px;
+}
+.IT {
+    color: rgb(247, 191, 224);
+    position: absolute;
+    top: 260px;
+    font-family: afacad;
+    font-size: 17px;
+    left: 200px;
+}
+
+.andi {
+    width: 434px;
+    position: absolute;
+    top: 63px;
+    right: 200px;
+}
+.desc {
+    color: rgb(214, 204, 204);
+    position: absolute;
+    top: 300px;
+    font-family: afacad;
+    font-size: 15px;
+    left: 200px;
+}
+.button-resume {
+    height: 30px;
+    width: 70px;
+    font-family: afacad;
+    color: rgb(126, 6, 56);
+    background-color: rgb(247, 191, 224);
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+}
+.button-resume:hover {
+    background-color: rgb(177, 4, 76);
+    color: rgb(214, 204, 204);
+    transition-duration: 0.4s;
+}
+.button-resume:active {
+    background-color: rgb(126, 6, 56);
+    color: rgb(214, 204, 204);
+    transition-duration: 0.2s;
+}

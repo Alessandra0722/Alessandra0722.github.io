@@ -1,0 +1,238 @@
+.body-about{
+    background-color: rgb(93, 64, 133);
+}
+.bg-about {
+    filter: blur(8px);
+    -webkit-filter: blur(9px);
+    width: 1330px;
+    height: 600px;
+    object-fit: cover;
+}
+.nav-home {
+    color:  rgb(214, 204, 204);
+    font-family: afacad;
+    position: absolute;
+    top: 5px;
+    right: 325px;
+}
+
+.nav-home:hover {
+    color: rgb(247, 191, 224);
+}
+
+.nav-home:active {
+    color: rgb(187, 130, 163);
+
+}
+
+.nav-contact {
+    color: rgb(214, 204, 204);
+    font-family: afacad;
+    position: absolute;
+    top: 5px;
+    right: 125px;
+
+}
+
+.nav-contact:hover {
+    color: rgb(247, 191, 224);
+}
+
+.nav-contact:active {
+    color: rgb(187, 130, 163);
+
+}
+
+.nav-about {
+    color: rgb(214, 204, 204);
+    font-family: afacad;
+    position: absolute;
+    top: 5px;
+    right: 225px;
+}
+
+.nav-about:hover {
+    color: rgb(247, 191, 224);
+}
+
+.nav-about:active {
+    color: rgb(187, 130, 163);
+}
+
+.abtme {
+    position: absolute;
+    top: 90px;
+    font-family: afacad;
+    font-size: 40px;
+    left: 200px;
+}
+
+.line2 {
+    font-family: afacad;
+    font-size: 27px;
+    color:  rgb(214, 204, 204);
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+.about-me {
+    font-family: afacad;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 180px;
+    left: 200px;
+
+}
+
+.skills {
+    position: absolute;
+    top: 395px;
+    font-family: afacad;
+    font-size: 40px;
+    left: 200px;
+}
+.ht{
+    position: absolute;
+    width: 70px;
+    top: 240px;
+    right: 400px;
+}
+.czs{
+    position: absolute;
+    width: 50px;
+    top: 290px;
+    right: 410px;
+}
+.jvs{
+    position: absolute;
+    width: 21px;
+    top: 330px;
+    right: 424px;
+}
+.orange{
+    position: absolute;
+    width: 70px;
+    top: 242px;
+    right: 335px;
+    color:  rgb(214, 204, 204);
+    font-family: afacad;
+    font-size: 15px;
+}
+.web{
+    font-size: 23px;
+    position: absolute;
+    top: 185px;
+    right: 280px;
+    color: rgb(247, 191, 224);
+    font-family: afacad;
+    
+}
+
+.blue{
+    position: absolute;
+    width: 50px;
+    top: 283px;
+    right: 355px;
+    color: rgb(214, 204, 204);
+    font-family: afacad;
+    font-size: 15px;
+}
+.yellow{
+    position: absolute;
+    width: 21px;
+    top: 322px;
+    right: 384px;
+    color: rgb(214, 204, 204);
+    font-family: afacad;
+    font-size: 15px;
+}
+
+.line3{
+    font-family: afacad;
+    font-size: 27px;
+    color: rgb(214, 204, 204);
+    position: absolute;
+    top: 460px;
+    left: 200px;
+}
+.lang{
+    position: absolute;
+    top: 370px;
+    right: 220px;
+    color: rgb(247, 191, 224);
+    font-family: afacad;
+    font-size: 23px;
+}
+
+
+.jav{
+    position: absolute;
+    width: 45px;
+    top: 428px;
+    right: 413px;
+}
+.cpp{
+    position: absolute;
+    width: 30px;
+    top: 474px;
+    right: 420px;
+}
+.si{
+    position: absolute;
+    width: 30px;
+    top: 509px;
+    right: 420px;
+}
+.sharp{
+    position: absolute;
+    width: 27px;
+    top: 545px;
+    right: 421px;
+}
+.lang1{
+    position: absolute;
+    width: 21px;
+    top: 428px;
+    right: 383px;
+    color: rgb(214, 204, 204);
+    font-family: afacad;
+    font-size: 15px;
+}
+.lang2{
+    position: absolute;
+    width: 21px;
+    top: 466px;
+    right: 383px;
+    color:  rgb(214, 204, 204);
+    font-family: afacad;
+    font-size: 15px;
+}
+.lang3{
+    position: absolute;
+    width: 21px;
+    top: 500px;
+    right: 383px;
+    color: rgb(214, 204, 204);
+    font-family: afacad;
+    font-size: 15px;
+}
+.lang4{
+    position: absolute;
+    width: 21px;
+    top: 538px;
+    right: 383px;
+    color:  rgb(214, 204, 204);
+    font-family: afacad;
+    font-size: 15px;
+}
+
+
+
+.skill-desc {
+    font-family: afacad;
+    color:  rgb(214, 204, 204);
+    position: absolute;
+    top: 490px;
+    left: 200px;
+}

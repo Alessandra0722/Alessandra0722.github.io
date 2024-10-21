@@ -1,0 +1,188 @@
+.body-contact{
+    background-color: rgb(93, 64, 133);
+}
+.bg-contact {
+    filter: blur(8px);
+    -webkit-filter: blur(9px);
+    width: 1330px;
+    height: 600px;
+    object-fit: cover;
+}
+.nav-home {
+    color:  rgb(214, 204, 204);
+    font-family: afacad;
+    position: absolute;
+    top: 5px;
+    right: 325px;
+}
+
+.nav-home:hover {
+    color: rgb(247, 191, 224);
+}
+
+.nav-home:active {
+    color: rgb(187, 130, 163);
+
+}
+
+.nav-contact {
+    color: rgb(214, 204, 204);
+    font-family: afacad;
+    position: absolute;
+    top: 5px;
+    right: 125px;
+
+}
+
+.nav-contact:hover {
+    color: rgb(247, 191, 224);
+}
+
+.nav-contact:active {
+    color: rgb(187, 130, 163);
+
+}
+
+.nav-about {
+    color: rgb(214, 204, 204);
+    font-family: afacad;
+    position: absolute;
+    top: 5px;
+    right: 225px;
+}
+
+.nav-about:hover {
+    color: rgb(247, 191, 224);
+}
+
+.nav-about:active {
+    color: rgb(187, 130, 163);
+}
+
+.ctc {
+
+    position: absolute;
+    top: 90px;
+    font-family: afacad;
+    font-size: 40px;
+    left: 580px;
+}
+.line4{
+    font-family: afacad;
+    font-size: 27px;
+    color: rgb(214, 204, 204);
+    position: absolute;
+    top: 153px;
+    left: 580px;
+}
+.email{
+    position: absolute;
+    width: 30px;
+    top: 215px;
+    left: 510px;
+}
+
+.phone{
+    position: absolute;
+    width: 36px;
+    top: 263px;
+    left: 505px;
+}
+.fb{
+    position: absolute;
+    width: 30px;
+    top: 319px;
+    left: 507px;
+}
+.lkn{
+    position: absolute;
+    width: 30px;
+    top: 370px;
+    left: 507px;
+}
+.ig{
+    position: absolute;
+    width: 30px;
+    top: 422px;
+    left: 507px;
+}
+.em{
+    color: rgb(214, 204, 204);
+    font-family: afacad;
+    font-size: 18px;
+    position: absolute;
+    top: 215px;
+    left: 550px;
+}
+.ph{
+    color: rgb(214, 204, 204);
+    font-family: afacad;
+    font-size: 18px;
+    position: absolute;
+    top: 268px;
+    left: 550px;
+}
+.face{
+    color: rgb(214, 204, 204);
+    font-family: afacad;
+    font-size: 18px;
+    position: absolute;
+    top: 322px;
+    left: 550px;
+}
+.link{
+    color: rgb(214, 204, 204);
+    font-family: afacad;
+    font-size: 18px;
+    position: absolute;
+    top: 370px;
+    left: 550px;
+}
+.ins{
+    color: rgb(214, 204, 204);
+    font-family: afacad;
+    font-size: 18px;
+    position: absolute;
+    top: 422px;
+    left: 550px;
+}
+.face:hover{
+    color:rgb(42, 18, 73);
+    transition-duration: 0.4s;
+}
+.face:active{
+   color: rgb(219, 186, 201);
+   transition-duration: 0.2s;
+}
+.em:hover{
+    color:rgb(42, 18, 73);
+    transition-duration: 0.4s;
+}
+.em:active{
+    color: rgb(219, 186, 201);
+    transition-duration: 0.2s;
+}
+.ins:hover{
+    color:rgb(42, 18, 73);
+    transition-duration: 0.4s;
+}
+.ins:active{
+    color: rgb(219, 186, 201);
+    transition-duration: 0.2s;  
+}
+.link:hover{
+    color:rgb(42, 18, 73);
+    transition-duration: 0.4s;
+}
+.link:active{
+    color: rgb(219, 186, 201);
+    transition-duration: 0.2s;  
+}
+.ph:hover{
+    color:rgb(42, 18, 73);
+    transition-duration: 0.4s;
+}
+.ph:active{
+    color: rgb(219, 186, 201);
+    transition-duration: 0.2s;  
+}
