@@ -1,0 +1,103 @@
+/* Contact*/
+.contact-page .contact-container {
+    padding: 8rem 3rem 5rem;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-page .contact-section {
+    background-color: var(--card-bg);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.contact-page .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+
+.contact-page .contact-info {
+    flex: 1;
+    min-width: 300px;
+    background: rgba(84, 119, 146, 0.1);
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.contact-page .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 0.8rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.contact-page .contact-item:hover {
+    background: rgba(84, 119, 146, 0.2);
+}
+
+.contact-page .contact-item i {
+    font-size: 1.2rem;
+    width: 30px;
+    text-align: center;
+    color: var(--other-color);
+}
+
+.contact-page .contact-item a {
+    color: var(--medium-text);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-page .contact-item a:hover {
+    color: var(--primary-color);
+}
+
+.contact-page .contact-form {
+    flex: 1;
+    min-width: 300px;
+    background: rgba(84, 119, 146, 0.1);
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.contact-page .contact-form h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--other-color);
+    text-align: center;
+}
+
+.contact-page .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.contact-page .form-group input,
+.contact-page .form-group textarea {
+    width: 100%;
+    padding: 0.8rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    color: var(--light-text);
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.contact-page .form-group input:focus,
+.contact-page .form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.contact-page .form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}

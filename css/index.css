@@ -1,0 +1,156 @@
+/* Home Page*/
+.home-page .main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 3rem;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.home-page .intro-section {
+    max-width: 600px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.home-page .hello {
+    font-size: 1.5rem;
+    color: #94B4C1;
+    margin-bottom: 0.5rem;
+}
+
+.home-page .name {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.home-page .title {
+    font-size: 1.2rem;
+    color: var(--medium-text);
+    margin-bottom: 1.5rem;
+}
+
+.home-page .desc {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--medium-text);
+    margin-bottom: 2rem;
+}
+
+.home-page .profile-image-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    animation: float 6s ease-in-out infinite;
+}
+
+.home-page .profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 5px solid var(--primary-color);
+    box-shadow: 0 0 30px rgba(84, 119, 146, 0.5);
+    position: relative;
+    z-index: 2;
+}
+
+.home-page .image-glow {
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    top: -5%;
+    left: -5%;
+    background: radial-gradient(circle, var(--primary-color) 0%, transparent 70%);
+    filter: blur(20px);
+    opacity: 0.3;
+    z-index: 1;
+    animation: pulse 4s ease-in-out infinite;
+}
+
+.home-page .projects-section {
+    padding: 5rem 3rem;
+    background-color: var(--section-bg);
+    backdrop-filter: blur(10px);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.home-page .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.home-page .project-card {
+    background-color: var(--card-bg);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    padding: 1.5rem;
+}
+
+.home-page .project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(84, 119, 146, 0.4);
+}
+
+.home-page .project-slideshow {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.home-page .project-slideshow img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+.home-page .project-slideshow img.active {
+    opacity: 1;
+}
+
+.home-page .project-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #94B4C1;
+}
+
+.home-page .project-card p {
+    color: var(--medium-text);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.home-page .project-links {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.home-page .project-links a {
+    color: var(--medium-text);
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: color 0.3s ease;
+}
+
+.home-page .project-links a:hover {
+    color: var(--primary-color);
+}
+
+.home-page .project-links i {
+    margin-right: 0.3rem;
+    color: var(--primary-color);
+}

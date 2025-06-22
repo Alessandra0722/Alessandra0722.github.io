@@ -1,0 +1,192 @@
+/* Resume */
+.resume-page .resume-container {
+    padding: 8rem 3rem 5rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resume-page .resume-content {
+    display: flex;
+    background: white;
+    color: #333;
+    padding: 2rem;
+    border-radius: 10px;
+    max-width: 1000px;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.resume-page .resume-left {
+    flex: 1;
+    padding-right: 2rem;
+    border-right: 1px solid #eee;
+    min-width: 250px;
+}
+
+.resume-page .resume-right {
+    flex: 2;
+    padding-left: 2rem;
+}
+
+.resume-page .resume-photo {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 2rem;
+    border: 3px solid var(--primary-color);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.resume-page .resume-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.resume-page .resume-left h2,
+.resume-page .resume-right h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.resume-page .resume-left p,
+.resume-page .resume-right p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.resume-page .contact-info,
+.resume-page .profile-section,
+.resume-page .skills-section,
+.resume-page .education-section,
+.resume-page .tesda-section,
+.resume-page .experience-section,
+.resume-page .certifications-section {
+    background: var(--resume-card-bg);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.resume-page .contact-info p {
+    font-size: 0.8rem;
+    line-height: 1.4;
+}
+
+.resume-page .resume-skill-category {
+    margin-bottom: 1.5rem;
+}
+
+.resume-page .resume-skill-category h3 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.3rem;
+}
+
+.resume-page .resume-skill-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.resume-page .resume-skill-item {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    background: #f5f5f5;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.resume-page .resume-skill-item i {
+    color: var(--primary-color);
+    font-size: 0.8rem;
+}
+
+.resume-page .education-item,
+.resume-page .tesda-item,
+.resume-page .experience-item {
+    margin-bottom: 1.5rem;
+}
+
+.resume-page .education-item h3,
+.resume-page .tesda-item h3,
+.resume-page .experience-item h3 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+}
+
+.resume-page .institution,
+.resume-page .location,
+.resume-page .program,
+.resume-page .position,
+.resume-page .duration,
+.resume-page .year {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 0.2rem;
+}
+
+.resume-page .certifications-section ul {
+    list-style: none;
+}
+
+.resume-page .certifications-section li {
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    position: relative;
+    padding-left: 1.2rem;
+    color: #333;
+}
+
+.resume-page .certifications-section li::before {
+    content: '•';
+    color: var(--primary-color);
+    position: absolute;
+    left: 0;
+}
+
+.resume-page .download-resume {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+/* Print */
+@media print {
+    .resume-page .bg-overlay,
+    .resume-page .nav-bar,
+    .resume-page .download-resume {
+        display: none !important;
+    }
+    
+    .resume-page .resume-container {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    
+    .resume-page .resume-content {
+        box-shadow: none !important;
+        border: none !important;
+    }
+    
+    .resume-page .resume-left,
+    .resume-page .resume-right {
+        padding: 10px !important;
+    }
+    
+    * {
+        overflow: visible !important;
+    }
+}

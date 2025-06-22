@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="home-page">
+    <div class="bg-overlay"></div>
+    <nav class="nav-bar">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-link" href="resume.html">Resume</a>
+    </nav>
+
+    <main class="main-content">
+        <div class="intro-section">
+            <h1 class="hello">Hello!</h1>
+            <h2 class="name">I'm <span style="color:#94B4C1">Alessandra</span> M. Tabangcura</h2>
+            <p class="title">IT Student | Web Developer</p>
+            <div class="divider" style="background:#547792"></div>
+            <p class="desc">
+                I am an IT student who is passionate about web development. I have basic skills in creating websites using HTML, CSS, and JavaScript, and I'm also familiar with using databases and GitHub for project management. I enjoy learning new things and want to keep improving my skills to build useful and user-friendly websites. I am hardworking, eager to grow, and excited to work on web development projects with others.
+            </p>
+            <div class="cta-buttons">
+                <a href="resume.html" class="cta-button">View Resume</a>
+                <a href="contact.html" class="cta-button secondary">Contact Me</a>
+            </div>
+        </div>
+        
+        <div class="profile-image-container">
+            <img class="profile-image" src="pics/ako.jpg" alt="Alessandra's professional photo">
+            <div class="image-glow"></div>
+        </div>
+    </main>
+
+    <section class="projects-section">
+        <h2 class="section-title">My <span style="color:#94B4C1">School Projects</span></h2>
+        <div class="divider" style="background:#547792"></div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-slideshow">
+                    <img src="pics/login-eservices.png" class="active" alt="E-Services">
+                    <img src="pics/admin-eservices.png" alt="E-Services">
+                    <img src="pics/home-services.png" alt="E-Services">
+                     <img src="pics/services-eservices.png" alt="E-Services">
+                     <img src="pics/faq.png" alt="E-Services">
+                     <img src="pics/admin-sr.png" alt="E-Services">
+                </div>
+                <h3>Guiuan e-Services Portal</h3>
+                <p>HTML, CSS, JavaScript</p>
+                <div class="project-links">
+                    <a href="https://alessandra0722.github.io/Team9-System" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                    <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-slideshow">
+                    <img src="pics/home-brgy.png" class="active" alt="Barangay">
+                    <img src="pics/result-brgy.png" alt="Barangay">
+                    <img src="pics/about-brgy.png" alt="Barangay">
+                </div>
+                <h3>Barangay Health Monitoring System</h3>
+                <p>HTML, CSS, javaScript>
+                <div class="project-links">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-slideshow">
+                    <img src="pics/home-favorc.png" class="active" alt="Favorclaw">
+                     <img src="pics/nail-favorc.png" class="active" alt="Favorclaw">
+                     <img src="pics/about-favorc.png" class="active" alt="Favorclaw">
+                </div>
+                <h3>Favorclaw</h3>
+                <p>HTML, CSS</p>
+                <div class="project-links">
+                    <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Project 
+        document.querySelectorAll('.project-slideshow').forEach(slideshow => {
+            const images = slideshow.querySelectorAll('img');
+            let currentIndex = 0;
+            
+            slideshow.parentElement.addEventListener('mouseenter', () => {
+                const interval = setInterval(() => {
+                    images[currentIndex].classList.remove('active');
+                    currentIndex = (currentIndex + 1) % images.length;
+                    images[currentIndex].classList.add('active');
+                }, 2000);
+                
+                slideshow.parentElement.addEventListener('mouseleave', () => {
+                    clearInterval(interval);
+                    images.forEach(img => img.classList.remove('active'));
+                    images[0].classList.add('active');
+                    currentIndex = 0;
+                }, { once: true });
+            });
+        });
+    </script>
+</body>
+</html>

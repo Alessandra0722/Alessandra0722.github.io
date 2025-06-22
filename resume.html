@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resume.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body class="resume-page">
+    <div class="bg-overlay"></div>
+    <nav class="nav-bar">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+        <a class="nav-link" href="resume.html">Resume</a>
+    </nav>
+
+    <main class="resume-container">
+        <div class="resume-content" id="resumeContent">
+            <div class="resume-left">
+                <div class="resume-photo">
+                    <img src="pics/ako.jpg" alt="Professional Photo">
+                </div>
+                
+                <div class="contact-info">
+                    <h2>Contact</h2>
+                    <div class="divider"></div>
+                    <p><i class="fas fa-envelope"></i> tabangcuraalessandra03@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> 0916 845 9473</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Quezon City, Philippines</p>
+                </div>
+                
+                <div class="profile-section">
+                    <h2>Profile</h2>
+                    <div class="divider"></div>
+                    <p>I am an IT student passionate about web development with skills in HTML, CSS, JavaScript, databases, and GitHub. I enjoy learning and building user-friendly websites, eager to collaborate on projects.</p>
+                </div>
+                
+                <div class="skills-section">
+                    <h2>Skills</h2>
+                    <div class="divider"></div>
+                    
+                    <div class="resume-skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="resume-skill-items">
+                            <div class="resume-skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>C++</span>
+                            </div>
+                            <div class="resume-skill-item">
+                                <i class="fab fa-java"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="resume-skill-item">
+                                <i class="fas fa-laptop-code"></i>
+                                <span>C#</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="resume-skill-category">
+                        <h3>Web Development</h3>
+                        <div class="resume-skill-items">
+                            <div class="resume-skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="resume-skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="resume-skill-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="resume-skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <div class="resume-skill-items">
+                            <div class="resume-skill-item">
+                                <i class="fab fa-figma"></i>
+                                <span>Figma</span>
+                            </div>
+                            <div class="resume-skill-item">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="resume-skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>XAMPP</span>
+                            </div>
+                            <div class="resume-skill-item">
+                                <i class="fas fa-server"></i>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="resume-right">
+                <section class="education-section">
+                    <h2>Education</h2>
+                    <div class="divider"></div>
+                    <div class="education-item">
+                        <h3>Senior High School</h3>
+                        <p class="institution">New Era High School (2021-2023)</p>
+                        <p class="location">Tandang Sora, New Era, Quezon City</p>
+                        <p class="program">TVL - ICT</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>College</h3>
+                        <p class="institution">Polytechnic University of the Philippines (Present)</p>
+                        <p class="location">Sta. Mesa, Manila</p>
+                        <p class="program">Diploma in Information Technology</p>
+                    </div>
+                </section>
+                
+                <section class="experience-section">
+                    <h2>Experience</h2>
+                    <div class="divider"></div>
+                    <div class="experience-item">
+                        <h3>Organization</h3>
+                        <p class="position">AWS Cloud Club PUP</p>
+                        <p class="duration">2024-2025</p>
+                        <p class="institution">Polytechnic University of the Philippines</p>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Bootcamp</h3>
+                        <p class="position">Basic Web Development</p>
+                        <p class="institution">Exocoder Software Development and Coding Academy</p>
+                    </div>
+                </section>
+                
+                <section class="certifications-section">
+                    <h2>Certifications</h2>
+                    <div class="divider"></div>
+                    <ul>
+                        <li>President Lister - SY 2023-2024</li>
+                        <li>Visual Graphic Design NCIII - Competent</li>
+                        <li>Computer Systems Servicing NCII - Competent</li>
+                        <li>Java Programming NCIII - Certificate of Training</li>
+                        <li>Certificate of Completion - Basic Web Development Bootcamp</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        
+        <div class="download-resume">
+            <button id="downloadBtn" class="cta-button">Download Resume</button>
+        </div>
+    </main>
+
+    <script>
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            const element = document.getElementById('resumeContent');
+            const opt = {
+                margin: [10, 5, 10, 5],
+                filename: 'Alessandra_Tabangcura_Resume.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { 
+                    scale: 2,
+                    logging: false,
+                    useCORS: true,
+                    allowTaint: true,
+                    scrollX: 0,
+                    scrollY: 0
+                },
+                jsPDF: { 
+                    unit: 'mm', 
+                    format: 'a4', 
+                    orientation: 'portrait',
+                    compress: true
+                },
+                pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
+            };
+            
+            html2pdf().set(opt).from(element).save();
+        });
+    </script>
+</body>
+</html>
